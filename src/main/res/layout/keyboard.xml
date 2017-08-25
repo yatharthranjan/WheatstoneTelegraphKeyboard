@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/keyboard"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/keyboardback"
+    android:layout_gravity="center"
+    android:keyBackground="@drawable/key_background"
+    android:keyPreviewLayout="@layout/preview"
+    android:keyTextColor="#212121"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:soundEffectsEnabled="true"
+    android:hapticFeedbackEnabled="true">
+
+</android.inputmethodservice.KeyboardView>

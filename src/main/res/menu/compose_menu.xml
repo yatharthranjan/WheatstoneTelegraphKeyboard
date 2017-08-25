@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_image"
+        android:icon="@mipmap/image"
+        android:title="Compose Tweet"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_tutorial"
+        android:title="Tutorial"
+        app:showAsAction="never"/>
+
+</menu>

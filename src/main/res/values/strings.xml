@@ -1,3 +1,5 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
     <string name="app_name">Wheatstone Telegraph Keyboard</string>
+    <string name="my_keyboard">Wheatstone Keyboard</string>
+    <string name="sybtype_en_US">English (US)</string>
 </resources>

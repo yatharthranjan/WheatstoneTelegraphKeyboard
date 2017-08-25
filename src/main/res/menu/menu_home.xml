@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/add"
+        android:title="Compose Tweet"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/search_black"
+        android:title="Search"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_refresh"
+    android:title="Refresh"
+    app:showAsAction="never"/>
+
+    <item android:id="@+id/action_tutorial"
+        android:title="Tutorial"
+        app:showAsAction="never"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+</menu>

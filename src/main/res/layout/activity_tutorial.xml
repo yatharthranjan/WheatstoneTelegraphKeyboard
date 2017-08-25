@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    tools:context="com.kings.yatharth.wheatstonetelegraphkeyboard.controller.Tutorial">
+
+    <TextView
+        android:paddingTop="70dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shown below is an image and demonstration video of the virtual Wheatstone Telegraph Keyboard. This shows how to use the keyboard. Please note that only a maximum of two needles can be deflected at any time. 2 needles when deflected and pointing towards the same letter result in the letter being typed. Clicking a needle repetedly deflects the needle alternatively in clockwise, anti-clockwise and center directions.\nThanks for watching."/>
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="296dp"
+        android:src="@drawable/example"
+        android:id="@+id/image_view"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#e98d6e63"
+        android:textColor="#ffff"
+        android:text="Play Video"
+        android:id="@+id/play_video"/>
+</LinearLayout>
